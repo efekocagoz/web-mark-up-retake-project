@@ -1,0 +1,5 @@
+Student name: Efe Kodzhagioz
+Student number: 733456
+Student class: IT1D
+GitHub Repository: 
+GitHub Pages URL: 

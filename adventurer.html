@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Discover the adventurous side of travel and explore thrilling destinations.">
+	<meta name="keywords" content="Travel, Adventure, Thrill, Explorer, Adventure Travel, Destinations">
+	<meta name="author" content="Traveldea">
+	<title>Traveldea - Adventurer Travel Style</title>
+	<link rel="stylesheet" href="css/adventurer.css" type="text/css">
+	<link rel="icon" type="image/png" href="./img/plane-ticket.png">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside class="cookie-message" id="cookieMessage">
+        <p>This website uses cookies to ensure you get the best experience on our website.</p>
+        <button class="cookie-accept" onclick="acceptCookies()">Accept</button>
+    </aside>
+    
+    <header>
+        <!-- Logo Image -->
+        <img src="./img/mylogo.png" alt="Website Logo" title="Traveldea Logo" class="logo">
+
+        <!-- Hamburger Menu -->
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav class="sliding-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explorer.html">Explorer</a></li>
+                <li><a href="relaxer.html">Relaxer</a></li>
+                <li><a href="adventurer.html">Adventurer</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="adventurer-hero">
+            <h1>The Adventurer Spirit</h1>
+            <p>For those who seek thrills, challenges, and unforgettable experiences.</p>
+        </section>
+
+        <article class="traveler-profile">
+            <section class="profile-description">
+                <h2>Who is the Adventurer?</h2>
+                <p>An adventurer is a thrill-seeker who lives for adrenaline-pumping experiences. You're drawn to challenging activities, extreme sports, and destinations that push your limits. Every journey is an opportunity for a new adventure.</p>
+            </section>
+            <aside class="profile-characteristics">
+                <h3>Key Characteristics</h3>
+                <ul>
+                    <li>Thrill-seeking nature</li>
+                    <li>Physical activity enthusiast</li>
+                    <li>Risk-taker (calculated)</li>
+                    <li>Outdoor lover</li>
+                    <li>Challenge seeker</li>
+                </ul>
+            </aside>
+        </article>
+
+        <section class="adventure-activities">
+            <h2>Popular Adventure Activities</h2>
+            <ul class="activities-grid">
+                <li class="activity-card">
+                    <img src="./img/mountainclimbing.jpg" alt="Mountain climbing adventure" title="Experience thrilling mountain climbing adventures">
+                    <h3>Mountain Climbing</h3>
+                    <p>Scale peaks and conquer heights in world-famous mountain ranges.</p>
+                </li>
+                <li class="activity-card">
+                    <img src="./img/skydiving.jpg" alt="Skydiving experience" title="Feel the rush of skydiving">
+                    <h3>Skydiving</h3>
+                    <p>Experience the ultimate thrill of free-falling from great heights.</p>
+                </li>
+                <li class="activity-card">
+                    <img src="./img/waterrafting.jpg" alt="White water rafting" title="Navigate exciting white water rapids">
+                    <h3>White Water Rafting</h3>
+                    <p>Navigate through challenging rapids in pristine rivers.</p>
+                </li>
+                <li class="activity-card">
+                    <img src="./img/bungeejumping.jpg" alt="Bungee jumping" title="Take the leap with bungee jumping">
+                    <h3>Bungee Jumping</h3>
+                    <p>Take the leap from some of the world's most spectacular locations.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="adventure-destinations">
+            <h2>Top Adventure Destinations</h2>
+            <ul class="destination-grid">
+                <li class="destination-card">
+                    <img src="./img/newzealand.jpg" alt="New Zealand adventure landscape" title="Explore New Zealand's stunning landscapes">
+                    <h3>New Zealand</h3>
+                    <p>The adventure capital of the world, offering everything from bungee jumping to zorbing.</p>
+                </li>
+                <li class="destination-card">
+                    <img src="./img/nepal.jpg" alt="Nepal Himalayas" title="Trek the majestic Himalayas">
+                    <h3>Nepal</h3>
+                    <p>Home to Mount Everest and countless trekking opportunities in the Himalayas.</p>
+                </li>
+                <li class="destination-card">
+                    <img src="./img/costarica.jpg" alt="Costa Rica rainforest" title="Discover Costa Rica's natural wonders">
+                    <h3>Costa Rica</h3>
+                    <p>Explore rainforest zip lines, volcanic hikes, and world-class surfing.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="adventure-tips">
+            <h2>Adventure Travel Tips</h2>
+            <ul class="tips-grid">
+                <li class="tip-card">
+                    <img src="./img/safetyfirst.png" alt="Safety icon" title="Safety is our top priority" class="tip-icon">
+                    <h3>Safety First</h3>
+                    <p>Always check equipment, get proper training, and follow safety guidelines.</p>
+                </li>
+                <li class="tip-card">
+                    <img src="./img/physicalpreparation.png" alt="Fitness icon" title="Prepare physically for your adventures" class="tip-icon">
+                    <h3>Physical Preparation</h3>
+                    <p>Build your fitness level and endurance before challenging adventures.</p>
+                </li>
+                <li class="tip-card">
+                    <img src="./img/insurance.png" alt="Insurance icon" title="Get comprehensive travel insurance" class="tip-icon">
+                    <h3>Travel Insurance</h3>
+                    <p>Get comprehensive coverage for adventure activities and emergency evacuation.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="signup-section">
+            <h2>Stay Updated with Adventure News!</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Newsletter Signup</legend>
+                    <section class="form-group">
+                        <label for="home-email">Email Address:</label>
+                        <input type="email" id="home-email" name="email" placeholder="Enter your email" required>
+                    </section>
+                    <input type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Stay connected with us on social media:</p>
+        <section class="social-links">
+            <a href="instagram.com">Instagram</a>
+            <a href="facebook.com">Facebook</a>
+            <a href="x.com">X</a>
+        </section>
+        <p>&copy; 2024 Traveldea</p>
+    </footer>
+
+    <script>
+        function acceptCookies() {
+            const cookieMessage = document.getElementById('cookieMessage');
+            if (cookieMessage) {
+                cookieMessage.style.display = 'none';
+                localStorage.setItem('cookiesAccepted', 'true');
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', function() {
+            const cookieMessage = document.getElementById('cookieMessage');
+            if (cookieMessage && localStorage.getItem('cookiesAccepted') === 'true') {
+                cookieMessage.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
