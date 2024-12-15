@@ -2,4 +2,4 @@ Student name: Efe Kodzhagioz
 Student number: 733456
 Student class: IT1D
 GitHub Repository: https://github.com/efekocagoz/web-mark-up-retake-project.git
-GitHub Pages URL: https://efekocagoz.github.io/web-mark-up-retake-project/explorer.html
+GitHub Pages URL: https://efekocagoz.github.io/web-mark-up-retake-project/index.html
