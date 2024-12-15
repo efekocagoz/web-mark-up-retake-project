@@ -1,0 +1,105 @@
+
+Basic 
+### **Excellent**
+- [x ] All items from "Sufficient" are passed.
+- [ x] Is not using embedded style anywhere.
+- [x ] Is not using inline style anywhere.
+- [ x] Uses all entities correctly (©, ®, ™, &, ", £, €, etc.).
+- [ x] Uses `alt` attributes for all images.
+- [x ] Uses `title` attributes for all images.
+- [ x] Uses `<figcaption>` element.
+- [ x] Uses `<figure>` element.
+
+### **Sufficient**
+- [ x] Uses HTML5 doctype.
+- [x ] Uses `<head>` tag.
+- [x ] Uses page title element (`<title>`).
+- [ x] Uses `<body>` tag.
+- [ x] Uses `<h1>` element.
+- [ x] Uses `<p>` (paragraph) element.
+- [x ] Uses copyright information in the footer.
+- [x ] Uses an anchor (`<a>`) element.
+- [x ] Uses `<img>` element with an image.
+- [ x] Uses an unordered list (`<ul>`) for listing items.
+
+Advanced HTML Grading Checklist
+Excellent:
+{ x} All items from sufficient are passed.
+{x } Uses type attribute with value "text/css" for the stylesheet.
+{ x} Uses favicon.
+{ x} Uses strong tag.
+{ x} Uses label tag in the form.
+{ x} Uses legend tag in the form.
+{ x} Uses input tag with attribute type="email".
+{ x} Uses input tag with attribute type="submit".
+Sufficient:
+{x} Is not using div tag.
+{x} Uses link tag with attribute rel="stylesheet" for the stylesheet.
+{x} Uses link tag with a URL value for the stylesheet. ***idk how to fix this
+{x} Uses section tag.
+{x} Uses header tag.
+{x} Uses article tag.
+{x} Uses aside tag.
+{x} Uses nav tag.
+{x} Uses footer tag.
+{x} Uses form tag.
+{x} Uses em tag.
+
+Basic CSS Grading Checklist
+Excellent:
+{ x} All items from sufficient are passed.
+{x } Uses Google fonts type according to design. (https://fonts.google.com/)
+{ x} Uses property text-transform in uppercase.
+{x } Uses relative units in CSS (em, rem).
+Sufficient:
+{ x} Design is Responsive.
+{ x} Uses at least one comment in CSS.
+{ x} Uses property letter-spacing.
+{ x} Uses property line-height.
+{ x} Uses property text-indent.
+{ x} Uses property word-spacing.
+
+Advanced CSS Grading Checklist
+Excellent:
+{ } All items from sufficient are passed.
+{ x} Uses at least 2 position properties (static, absolute, relative, or fixed).
+{ x} Uses float property.
+{ } Uses pseudo-class nth-child to color the even horizontal lines the background color #CFF and odd lines #FFF from a table.
+{ } Uses pseudo-element first-letter.
+{ } Uses selecting elements by > (‘larger than’ sign).
+Sufficient:
+{ x} Is not using property value !important.!!!!!!!!!!!!!!!!!!
+{ x} Uses pseudo-class :hover for mouse over link.
+{x } Uses pseudo-class :visited for selected link.
+{ x} Uses selecting elements by , (comma).
+{ x} Uses the property border-color.
+{x } Uses the property border-style.
+{ x} Uses the property border-width
+
+HTML & CSS Grading Checklist
+Excellent:
+{x } All items from sufficient are passed.
+{ x} Uses media queries for at least 2 different devices.
+{ x} Uses closing tags for all single and paired tags in the right way.
+{ x} Uses description attribute value with 50–160 characters.
+{ x} Uses keywords attribute with 5 keywords.
+{x } Uses language attribute.
+{ x} Uses Flexbox or Grid.
+{ } CSS is validated with CSS Validator, with profile "CSS level 3 + SVG" without warnings.
+{ } HTML5 is validated with HTML Validator without warnings.
+Sufficient:
+{ X} Is not using front-end libraries like Bootstrap, W3.CSS, etc.
+{ X} Is not using br tag.
+{ X} Is not using hr tag.
+{ x} Uses attribute charset=utf-8.
+{ x} Uses author attribute value.
+{ x} Uses property z-index for a "cookies" message with value 9999.
+{ x} Uses tabs for nested elements to maintain proper indentation level.
+{ } CSS is validated with CSS Validator, with profile "CSS level 3 + SVG" without errors.
+{ } HTML5 is validated with HTML Validator without errors.
+
+---
+
+Let me know if that works for you!
+
+xai-MtMuUMX9HGVsmz4i9m9GtGZAuO3qqXRSxD6AWisgPYNjyPfGQ9juwSXWSm6VWe4uZ0cSyyYop4RgYfHO grok key
