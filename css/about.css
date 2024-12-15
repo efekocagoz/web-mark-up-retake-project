@@ -220,6 +220,15 @@ header {
     color: #666;
 }
 
+.mission-content p::first-letter {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: var(--primary-purple);
+    float: left;
+    line-height: 1;
+    margin-right: 0.2em;
+}
+
 /* Team Section */
 .team-section {
     padding: 80px 20px;
@@ -239,6 +248,17 @@ header {
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.team-grid > article {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.team-grid > article:hover {
+    transform: translateY(-5px);
 }
 
 .team-member {
@@ -324,6 +344,36 @@ header {
 .value-card p {
     color: #666;
     line-height: 1.6;
+}
+
+/* Table Styles */
+.achievements-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.achievements-table caption {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.achievements-table th,
+.achievements-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+
+.achievements-table tr:nth-child(even) {
+    background-color: #CFF;
+}
+
+.achievements-table tr:nth-child(odd) {
+    background-color: #FFF;
 }
 
 /* Newsletter Section */

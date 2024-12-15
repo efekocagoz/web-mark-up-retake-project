@@ -83,11 +83,33 @@ header {
 }
 
 .sliding-menu a:hover {
-    color: #FF69B4;
+    color: var(--primary-pink);
 }
 
-.sliding-menu > ul > li {
-    margin: 10px 0;
+@media screen and (max-width: 768px) {
+    .nav-toggle-label {
+        display: block;
+    }
+
+    .sliding-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #000000;
+        padding: 1rem 0;
+    }
+
+    .sliding-menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav-toggle:checked ~ .sliding-menu {
+        display: block;
+    }
 }
 
 /* Explorer Hero Section */
@@ -268,7 +290,7 @@ a:hover {
 
 /* Footer */
 footer {
-    background-color: #0B0B0B; /* Black footer */
+    background-color: #0B0B0B; 
     text-align: center;
     padding: 10px 0;
     border-top: 1px solid #222;
@@ -350,15 +372,6 @@ footer .social-links a :visited {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    .nav-toggle-label {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 20px;
-        top: 20px;
-        z-index: 1000;
-    }
-
     .logo {
         position: absolute;
         left: 50%;
@@ -367,42 +380,6 @@ footer .social-links a :visited {
         width: 150px;
     }
 
-    .sliding-menu {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.95);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.3s ease-in-out;
-        z-index: 999;
-    }
-
-    .sliding-menu ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sliding-menu li {
-        margin: 15px 0;
-    }
-
-    .sliding-menu a {
-        font-size: 1.2em;
-    }
-
-    .nav-toggle:checked ~ .sliding-menu {
-        left: 0;
-    }
-
-    body.menu-open {
-        overflow: hidden;
-    }
-
-    /* Adjust other mobile styles */
     .explorer-hero {
         padding: 60px 20px;
     }
@@ -425,10 +402,6 @@ footer .social-links a :visited {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .logo {
         width: 180px;
-    }
-
-    .sliding-menu li {
-        margin: 0 10px;
     }
 
     .destination-grid {
