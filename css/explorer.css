@@ -87,8 +87,14 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    /* Mobile Navigation */
     .nav-toggle-label {
         display: block;
+    }
+
+    .logo {
+        width: 150px;
+        margin-bottom: 10px;
     }
 
     .sliding-menu {
@@ -104,11 +110,49 @@ header {
     .sliding-menu ul {
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+    }
+
+    .sliding-menu li {
+        margin: 10px 0;
     }
 
     .nav-toggle:checked ~ .sliding-menu {
         display: block;
+    }
+
+    /* Mobile Content */
+    .explorer-hero {
+        padding: 60px 20px;
+    }
+
+    .explorer-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .profile-characteristics {
+        margin-top: 20px;
+    }
+
+    .destination-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .tips-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .tip-card {
+        padding: 15px;
+    }
+
+    .signup-section {
+        padding: 40px 20px;
+    }
+
+    .form-group {
+        flex-direction: column;
     }
 }
 
@@ -371,34 +415,6 @@ footer .social-links a :visited {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
-    .logo {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 10px;
-        width: 150px;
-    }
-
-    .explorer-hero {
-        padding: 60px 20px;
-    }
-
-    .profile-characteristics {
-        margin-top: 20px;
-    }
-
-    .destination-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .tips-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-}
-
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .logo {
         width: 180px;

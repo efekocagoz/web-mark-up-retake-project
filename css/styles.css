@@ -33,6 +33,73 @@
 }
 
 @media screen and (max-width: 768px) {
+    /* Mobile Navigation */
+    .nav-toggle-label {
+        display: block;
+    }
+
+    .logo {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .sliding-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #000000;
+        padding: 1rem 0;
+    }
+
+    .sliding-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sliding-menu li {
+        margin: 10px 0;
+    }
+
+    .nav-toggle:checked ~ .sliding-menu {
+        display: block;
+    }
+
+    /* Mobile Content */
+    body {
+        font-size: 15px;
+    }
+
+    .quote-overlay {
+        width: 95%;
+    }
+
+    .quote {
+        font-size: 1.5rem;
+    }
+
+    .sub-quote {
+        font-size: 1rem;
+    }
+
+    /* Signup Section */
+    .signup-section input[type="email"],
+    .signup-section input[type="submit"] {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Social Links */
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-links a {
+        margin: 10px 0;
+    }
+
     /* Traveler Options */
     .traveler-options {
         flex-direction: column;
